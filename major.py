@@ -199,8 +199,6 @@ def menu():
     print '#\x1b[32;1mFacebook/ Name >>' + namefb
     print '#\x1b[34;1mFacebook/ ID >>' + id
     print '#\x1b[33;1mFacebook/ TotalSub >>' + subid
-    print '#+++++++++++++++++++++++++++++++++++++++++#'
-    print '##########################################'
     print '#========================================#'
     print '#\x1b[37;1m[1]> Dast pe krdn             #'
     print '##########################################'
@@ -208,7 +206,7 @@ def menu():
 
 
 def option():
-    unikers = raw_input('\x1b[37;1mSheLl>>\x1b[33;1m')
+    unikers = raw_input('\33[92m M a J o r >> ')
     if unikers == '':
         print '\x1b[31;1m Ba batlay jey mahel '
         option()
