@@ -578,7 +578,18 @@ for s in idd.split():
             login()
 else:
     os.system('clear')
-    bani = '\n   ____    _   _   _____   _       _     \n  / ___|  | | | | | ____| | |     | |    \n  \\___ \\  | |_| | |  _|   | |     | |    \n   ___) | |  _  | | |___  | |___  | |___ \n  |____/  |_| |_| |_____| |_____| |_____|\n  \n  your id is not active \n  id kat active nakrwa bo active  krdn massge  bkan \n  snapchat : ittz_dyaa \n  telegram : i4m_major\n  1 mang ba 30$ Fastpay\n    \n\n'
+    bani = """ 
+   '||    ||'     |        '||'  ..|''||   '||''|.   
+    |||  |||     |||        ||  .|'    ||   ||   ||  
+    |'|..'||    |  ||       ||  ||      ||  ||''|'   
+    | '|' ||   .''''|.      ||  '|.     ||  ||   |.  
+   .|. | .||. .|.  .||. || .|'   ''|...|'  .||.  '|' 
+                      '''                         
+    
+    
+    
+    
+    \n  your id is not active \n  id kat active nakrwa bo active  krdn massge  bkan \n  snapchat : ittz_dyaa \n  telegram : i4m_major\n  1 mang ba 30$ Fastpay\n    \n\n"""
     print '\x1b[94m'
     print bani
     print ' [+] your id is >>>> ' + sp[0]
