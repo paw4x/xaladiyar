@@ -287,7 +287,7 @@ def startgrab():
             time.sleep(1)
 
     print '\033[93m Major HACK '
-    anime('\033[95m WAIt FO START CRACKING  ')
+    anime('\033[95m WAIt FOR START CRACKING  ')
    
     def main(arg):
         user = arg
