@@ -206,7 +206,7 @@ def menu():
 
 
 def option():
-    unikers = raw_input('\33[92m M a J o r >> ')
+    unikers = raw_input('\033[92m M a J o r >> ')
     if unikers == '':
         print '\x1b[31;1m Ba batlay jey mahel '
         option()
@@ -248,7 +248,7 @@ def graber():
 def startgrab():
     global cekpoint
     global oks
-    peak = raw_input('\0033[95m MAJOR>> ')
+    peak = raw_input('\033[95m MAJOR>> ')
     if peak == '':
         print '\x1b[1;91mtkaya bosha yaka ba batale je mahela'
         startgrab()
