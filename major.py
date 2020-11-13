@@ -37,7 +37,7 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
-br.addheaders = [('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 OPR/72.0.3815.320')]
+br.addheaders = [('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36')]
 
 def kelwa():
     print '\x1b[1;96m  \x1b[1;91 Exit : '
@@ -579,6 +579,7 @@ for s in idd.split():
 else:
     os.system('clear')
     bani = """ 
+    \033[92m
    '||    ||'     |        '||'  ..|''||   '||''|.   
     |||  |||     |||        ||  .|'    ||   ||   ||  
     |'|..'||    |  ||       ||  ||      ||  ||''|'   
