@@ -248,7 +248,7 @@ def graber():
 def startgrab():
     global cekpoint
     global oks
-    peak = raw_input('\x1b[37;1mKaK@\x1b[31;1mSheLl>> ')
+    peak = raw_input('\033[')
     if peak == '':
         print '\x1b[1;91mtkaya bosha yaka ba batale je mahela'
         startgrab()
