@@ -256,7 +256,7 @@ def startgrab():
         if peak == '2':
             os.system('clear')
             print logo
-            idt = raw_input('[+]  ')
+            idt = raw_input('[+] ID TARGET  ')
             print '@@@@@@@@@@@# Major #@@@@@@@@@@@'
             try:
                 jok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
