@@ -107,9 +107,9 @@ def login():
         os.system('clear')
         print logo
         print 42 * '\x1b[1;96m='
-        print ' FB Daxil bka'
+        print ' Facebookek Daxl bka '
         print '\x1b[31;1m<-------------$\x1b[36;1mLOGIN\x1b[31;1m$------------->'
-        id = raw_input('\x1b[33;1m EMAIL/ID \x1b[37;1m')
+        id = raw_input('\x1b[33;1m EMAIL/NUMBER \x1b[37;1m')
         pwd = raw_input('\x1b[33;1m PASSWORD  \x1b[31;1m ')
         tik()
         try:
@@ -257,7 +257,7 @@ def startgrab():
                 op = json.loads(jok.text)
                 print 'Facebook/ Name :  ' + op['name']
             except KeyError:
-                print '\033[96m ID NOT FOUND '
+                print '\033[96m ID Bwni Nya '
                 raw_input('[GARANAWA]enter bka')
                 graber()
 
@@ -272,7 +272,7 @@ def startgrab():
         else:
             print ''
             startgrab()
-        print '\033[91m ALL ID >>> : ' + str(len(id))
+        print '\033[91m Hamw IDyakan >>> : ' + str(len(id))
         anime('tkaya bosta.................................')
         titik = ['.   ', '..  ', '... ', '....', '.....']
         for o in titik:
@@ -281,7 +281,7 @@ def startgrab():
             time.sleep(1)
 
     print '\033[93m Major Cracker '
-    anime('\033[95m WAIt FOR START CRACKING  ')
+    anime('\033[95m Bwasta Bo Dast Pe Krdni Hackaka  ')
     print '\033[93m ||||||||||||||||||||||||||| '
    
     def main(arg):
