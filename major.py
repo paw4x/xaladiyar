@@ -282,7 +282,7 @@ def startgrab():
 
     print '\033[93m Major Cracker '
     anime('\033[95m Bwasta Bo Dast Pe Krdni Hackaka  ')
-    print '\033[93m ||||||||||||||||||||||||||| '
+    print '\033[93m ||||||||||||||||||||||||||||||||||||||||||||||| '
    
     def main(arg):
         user = arg
