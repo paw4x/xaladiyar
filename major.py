@@ -76,11 +76,6 @@ logo = """
 
 
 
-__  __    _       _  ___  ____
-|  \/  |  / \     | |/ _ \|  _ \
-| |\/| | / _ \ _  | | | | | |_) |
-| |  | |/ ___ \ |_| | |_| |  _ <
-|_|  |_/_/   \_\___/ \___/|_| \_\
 
 
 """
@@ -285,8 +280,9 @@ def startgrab():
             sys.stdout.flush()
             time.sleep(1)
 
-    print '\033[93m Major HACK '
+    print '\033[93m Major Cracker '
     anime('\033[95m WAIt FOR START CRACKING  ')
+    print '\033[93m ||||||||||||||||||||||||||| '
    
     def main(arg):
         user = arg
