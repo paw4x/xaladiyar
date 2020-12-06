@@ -284,8 +284,8 @@ def startgrab():
             time.sleep(1)
 
     print '\033[93m Major Cracker '
-    print('\033[95m Bwasta Bo Dast Pe Krdni Hackaka  ')
-    anime '\033[93m ||||||||||||||||||||||||||||||||||||||||||||||| '
+    anime ('\033[95m Bwasta Bo Dast Pe Krdni Hackaka  ')
+    print '\033[93m ||||||||||||||||||||||||||||||||||||||||||||||| '
    
     def main(arg):
         user = arg
